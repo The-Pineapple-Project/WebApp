@@ -30,12 +30,14 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #33CC33;
+    color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #33CC33;
+    color: #fff;
     text-shadow: none;
 }
 
@@ -96,26 +98,33 @@ textarea {
 @import url(http://fonts.googleapis.com/css?family=Karla:400,700);
 
 div.container {
+    text-align: center;
     padding: 15px 20px 0;
 }
 
-img.logo {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+div#logo {
+    padding: 20px;
+}
+
+div#logo #logo-left {
+    padding-right: 5px;
+}
+
+div#logo #logo-right {
+    padding-left: 5px;
 }
 
 h1.headline {
     font-family: "Karla", Helvetica, Arial, sans-serif;
     font-size: 2em;
-    text-align: center;
+    margin-bottom: 10px;
 }
 
-.button {
+.btn {
     font-family: "Karla", Helvetica, Arial, sans-serif;
     color: #ffffff;
     font-size: 2em;
-    padding: 10px;
+    padding: 10px 20px;
     text-decoration: none;
     cursor: pointer;
     -webkit-border-radius: 3px;
@@ -127,8 +136,8 @@ h1.headline {
     text-shadow: 1px 1px 3px #666666;
     border: solid #ffb469 1px;
     border-bottom: solid #d6730f 4px;
-    background-color: #FF9933;
-    display:inline-block; /* IE is so silly */
+    background-color: #FF9900;
+    display: inline-block; /* IE is so silly */
     /* Animations */
     -webkit-transition: all 0.04s ease-in-out;
     -moz-transition: all 0.04s ease-in-out;
@@ -136,12 +145,12 @@ h1.headline {
     transition: all 0.04s ease-in-out;
 }
 
-.button:hover {
+.btn:hover {
     margin: 4px 0 0 0;
     border-bottom-width: 0;
 }
 
-.button:active {
+.btn:active {
     background: #ff8a14;
 }
 

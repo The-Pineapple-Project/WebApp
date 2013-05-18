@@ -10,7 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link href='/img/favicon.png' rel='icon' type='image/x-icon'/>
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -23,12 +24,12 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-            <img src="img/logo.png" alt="The Pineapple Project" class="logo">
+            <div id="logo">
+                <img src="img/slice.png" alt="The Pineapple Project" id="logo-left">
+                <img src="img/text.png" alt="The Pineapple Project" id="logo-right">
+            </div>
             <h1 class="headline">Which crops should I plant?</h1>
-        </div>
-
-        <div class="container">
-            <a class="button">Tell Me!</a>
+            <button class="btn" id="tell-me">Tell Me!</button>
         </div>
 
         <div class="photo-container">
