@@ -111,10 +111,39 @@ h1.headline {
     text-align: center;
 }
 
+.button {
+    font-family: "Karla", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    border: solid #ffb469 1px;
+    border-bottom: solid #d6730f 4px;
+    background-color: #FF9933;
+    display:inline-block; /* IE is so silly */
+    /* Animations */
+    -webkit-transition: all 0.03s ease-in-out;
+    -moz-transition: all 0.03s ease-in-out;
+    -o-transition: all 0.03s ease-in-out;
+    transition: all 0.03s ease-in-out;
+}
 
+.button:hover {
+    margin: 4px 0 0 0;
+    border-bottom-width: 0;
+}
 
-
-
+.button:active {
+    background: #ff8a14;
+}
 
 div.photo-container {
     background-image: url("/img/farm.jpg");
