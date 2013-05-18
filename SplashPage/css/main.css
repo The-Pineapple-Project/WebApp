@@ -130,10 +130,10 @@ h1.headline {
     background-color: #FF9933;
     display:inline-block; /* IE is so silly */
     /* Animations */
-    -webkit-transition: all 0.03s ease-in-out;
-    -moz-transition: all 0.03s ease-in-out;
-    -o-transition: all 0.03s ease-in-out;
-    transition: all 0.03s ease-in-out;
+    -webkit-transition: all 0.04s ease-in-out;
+    -moz-transition: all 0.04s ease-in-out;
+    -o-transition: all 0.04s ease-in-out;
+    transition: all 0.04s ease-in-out;
 }
 
 .button:hover {
