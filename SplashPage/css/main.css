@@ -93,16 +93,39 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
+div.container {
+    padding: 15px 20px 0;
+}
+
+img.logo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.headline {
+    font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
 
 
 
 
 
 
+div.photo-container {
+    background-image: url("/img/farm.jpg");
+    background-position: center center;
+    background-size: ;
+}
 
-
-
-
+div.photo-overlay {
+    background-color: #111;
+    opacity: 0.75;
+}
 
 
 
