@@ -8,7 +8,7 @@ $('#logo').mouseenter(function () {
     stop_rotation();
 });
 
-
+// Makes the pineapple spin when user hovers over the logo
 function rotate (el, angle) {
     el.css({
         transform: 'rotate(' + angle + 'deg)'

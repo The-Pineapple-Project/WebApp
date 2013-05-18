@@ -94,10 +94,47 @@ textarea {
 }
 
 /* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Nunito-Light'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/1TiHc9yag0wq3lDO9cw0vj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito-Regular'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/0rdItLTcOd8TSMl72RUU5w.woff) format('woff');
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Nunito-Bold'), url(http://themes.googleusercontent.com/static/fonts/nunito/v4/TttUCfJ272GBgSKaOaD7Kj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Merriweather Sans Light'), local('MerriweatherSans-Light'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/6LmGj5dOJopQKEkt88GowY_zIojJi0m4a5Z6tRh6itY.woff) format('woff');
+}
+@font-face {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Merriweather Sans Regular'), local('MerriweatherSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/AKu1CjQ4qnV8MUltkAX3sL2aU247V0zTzydO4RoO9Ok.woff) format('woff');
+}
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+body {
+    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+}
 
 div.main-container {
     height: 340px; /* workaround to make sure the button animation doesn't change the div size */
@@ -118,14 +155,14 @@ div#logo #logo-right {
 }
 
 h1.headline {
-    font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .btn {
     position: relative;
-    font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
     color: #ffffff;
     font-size: 2em;
     padding: 10px 20px;
@@ -159,23 +196,40 @@ h1.headline {
 }
 
 div.tab-row {
-
+    margin-top: 20px;
+    border: 1px solid #000;
+    background-color: #ddd;
 }
 
 div.tab-row ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 div.tab-row li {
-    display: inline;
-    margin: 0 0.5em 0 0.5em;
+    display: inline-block;
+    padding: 15px;
+    margin: 0;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div.tab-row li:hover {
+    -webkit-box-shadow: inset 0 0 10px #000;
+    -moz-box-shadow: inset 0 0 10px #000;
+    box-shadow: inset 0 0 10px #000;
+    background-color: #fff;
 }
 
 div.photo-container {
     width: 100%;
-    margin-top: 40px;
     -moz-box-shadow: inset 0 0 10px #000;
     -webkit-box-shadow: inset 0 0 10px #000;
     box-shadow: inset 0 0 10px #000;
@@ -195,7 +249,7 @@ div.photo-overlay {
 }
 
 h2 {
-    font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
 }
 
 
