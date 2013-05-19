@@ -239,9 +239,21 @@ div.photo-container {
     -moz-box-shadow: inset 0 0 10px #000;
     -webkit-box-shadow: inset 0 0 10px #000;
     box-shadow: inset 0 0 10px #000;
-    background-image: url("../img/tab0.jpg");
     background-position: bottom center;
     background-size: auto cover;
+}
+
+#photo0 {
+    background-image: url("../img/tab0.jpg");
+}
+#photo1 {
+    background-image: url("../img/tab1.jpg");
+}
+#photo2 {
+    background-image: url("../img/tab2.jpg");
+}
+#photo3 {
+    background-image: url("../img/tab3.jpg");
 }
 
 div.photo-overlay {
